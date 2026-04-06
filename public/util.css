@@ -1,9 +1,11 @@
 .fr {
     display: flex;
     flex-direction: row;
+    gap: 1rem;
 }
 
 .fc {
     display: flex;
     flex-direction: column;
+    gap: 0.5rem;
 }
