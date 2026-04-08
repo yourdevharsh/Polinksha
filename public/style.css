@@ -10,6 +10,8 @@
 * {
   margin: 0;
   padding: 0;
+
+  background: grey;
 }
 
 #titleHead {
@@ -50,7 +52,7 @@
   height: 1.5rem;
 }
 
-#map, #map2 {
+#map {
   height: 600px;
   width: 100%;
   margin-top: 20px;
