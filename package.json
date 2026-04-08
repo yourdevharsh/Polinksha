@@ -1,0 +1,27 @@
+{
+  "name": "polinksha",
+  "version": "1.0.0",
+  "description": "A geopolitical intelligence mapping platform for analyzing global power dynamics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourdevharsh/Polinksha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/yourdevharsh/Polinksha/issues"
+  },
+  "homepage": "https://github.com/yourdevharsh/Polinksha#readme",
+  "dependencies": {
+    "maplibre-gl": "^5.22.0",
+    "ogr": "^0.0.1",
+    "shpjs": "^6.2.0",
+    "to": "^0.2.9"
+  }
+}

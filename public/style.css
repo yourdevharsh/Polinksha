@@ -8,50 +8,56 @@
 */
 
 * {
-    margin: 0;
-    padding: 0;
-
-
+  margin: 0;
+  padding: 0;
 }
 
 #titleHead {
-    padding: 1rem;
-
-
+  padding: 1rem;
 }
 
 #logo {
-    padding: 0.5rem;
+  padding: 0.5rem;
 
-    height: 2rem;
-
-
+  height: 2rem;
 }
 
 #nameNsettings nav button {
-    border: none;
+  border: none;
 }
 
 #toolBar {
-    margin: 0rem 1.2rem;
-    padding: 0.5rem;
+  margin: 0rem 1.2rem;
+  padding: 0.5rem;
 
-    background-color: rgba(191, 225, 241, 0.411);
+  background-color: rgba(191, 225, 241, 0.411);
 
-    border-radius: 999px;
+  border-radius: 999px;
 }
 
 #toolBar input {
-    height: 1.5rem;
+  height: 1.5rem;
 
-    padding: 0 1rem;
+  padding: 0 1rem;
 
-    border-radius: 999px;
+  border-radius: 999px;
 
-    outline: none;
-    border: none;
+  outline: none;
+  border: none;
 }
 
 .headerIcon {
-    height: 1.5rem;
+  height: 1.5rem;
+}
+
+#map, #map2 {
+  height: 600px;
+  width: 100%;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+}
+
+main {
+  display: flex;
+  flex-direction: row; /* This will stack them vertically */
 }

@@ -7,6 +7,15 @@
 
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="util.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link
+      href="https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -27,7 +36,12 @@
       </div>
 
       <div id="toolBar" class="fr">
-        <input type="text" name="location" id="searchedLocation" placeholder="Search Polinksha"/>
+        <input
+          type="text"
+          name="location"
+          id="searchedLocation"
+          placeholder="Search Polinksha"
+        />
 
         <img
           class="headerIcon"
@@ -43,7 +57,15 @@
       </div>
     </header>
     <aside></aside>
-    <main></main>
+    <main>
+      <section id="map"></section>
+      <section id="map2"></section>
+    </main>
     <footer></footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/maplibre-gl@4.0.0/dist/maplibre-gl.js"></script>
+    <script src="custom.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
